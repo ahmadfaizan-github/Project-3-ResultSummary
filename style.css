@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Left side */
+.card {
+    width: 700px;
+    height: 500px;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    display: flex;
+    /* box-shadow: 10px 10px hsla(224, 30%, 27%, 0.08); */
+    
+}
+
+
+
+.result {
+    width: 350px;
+    height: 500px;
+    border-radius: 40px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.result-head {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.circle {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 220px;
+    text-align: center;
+}
+
+.circle p {
+    color: hsla(241, 100%, 89%, 0.5);
+    font-weight: 700;
+}
+
+.credits p {
+    color: hsla(241, 100%, 89%, 0.8);
+    font-weight: 500;
+}
+
+.circle h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.credits h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+/* Right side */
+.second {
+    width: 350px;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 10px 10px 10px rgb(136, 136, 143, 0.1);
+}
+
+.head {
+    width: 270px;
+    height: 316px;
+    /* border: 1px solid black; */
+    /* margin-left: 25px; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.summary {
+    color: hsl(224, 30%, 27%);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.type {
+    width: 270px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type img {
+    width: 20px;
+    height: 20px;
+    
+  }
+.left {
+    /* border: 1px solid black; */
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+.right {
+    /* border: 1px solid black; */
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.category {
+    width: 120px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.marks {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.type:nth-of-type(1) {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.type:nth-of-type(2) {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.type:nth-of-type(3) {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.type:nth-of-type(4) {
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.bold {
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+}
+
+.grey {
+    color: rgb(161, 161, 186);
+}
+
+button {
+    width: 270px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+    /* outline: 0;
+    outline-style:none;
+    outline-width:0; */
+    /* outline: none; */
+}
+
+button:hover {
+    /* background-color: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)); */
+    background-color: hsla(256, 72%, 46%, 1);
+    
+}
